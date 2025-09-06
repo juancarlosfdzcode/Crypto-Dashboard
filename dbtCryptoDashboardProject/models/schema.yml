@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: crypto_database
+    description: "Base de datos de crypto"
+    schema: main
+    tables:
+      - name: crypto_data
+        description: "Datos de criptomonedas"

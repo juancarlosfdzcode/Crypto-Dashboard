@@ -1,0 +1,7 @@
+dbtCryptoDashboardProject:
+  outputs:
+    dev:
+      type: duckdb
+      path: '/home/juancarlos/Descargas/Crypto Dashboard/crypto_database.db'
+      threads: 4
+  target: dev

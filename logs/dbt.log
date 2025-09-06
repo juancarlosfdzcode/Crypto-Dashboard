@@ -1,0 +1,47 @@
+[0m17:05:56.266333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9ea06e30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9da09300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9da092a0>]}
+
+
+============================== 17:05:56.269134 | 20ce5f6a-a412-4706-a824-b84cf44552d7 ==============================
+[0m17:05:56.269134 [info ] [MainThread]: Running with dbt=1.10.11
+[0m17:05:56.269452 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'static_parser': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'profiles_dir': '/home/juancarlos/.dbt', 'partial_parse': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'quiet': 'False', 'fail_fast': 'False', 'empty': 'None', 'log_cache_events': 'False', 'target_path': 'None', 'log_path': 'logs', 'no_print': 'None', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'introspect': 'True', 'log_format': 'default', 'debug': 'False', 'printer_width': '80', 'invocation_command': 'dbt init dbtCryptoDashboardProject'}
+[0m17:05:56.275894 [info ] [MainThread]: Creating dbt configuration folder at /home/juancarlos/.dbt
+[0m17:05:56.277103 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.10/dist-packages/dbt/include/starter_project
+[0m17:05:56.278193 [info ] [MainThread]: 
+Your new dbt project "dbtCryptoDashboardProject" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:05:56.278448 [info ] [MainThread]: Setting up your profile.
+[0m17:06:00.949038 [info ] [MainThread]: Profile dbtCryptoDashboardProject written to /home/juancarlos/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m17:06:00.951711 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 4.7142863, "process_in_blocks": "2608", "process_kernel_time": 0.071614, "process_mem_max_rss": "110440", "process_out_blocks": "72", "process_user_time": 0.712162}
+[0m17:06:00.952091 [debug] [MainThread]: Command `dbt init` succeeded at 17:06:00.952036 after 4.71 seconds
+[0m17:06:00.952329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9ea06e30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9da09bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9da092d0>]}
+[0m17:06:00.952562 [debug] [MainThread]: Flushing usage events
+[0m17:06:01.458342 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:34:40.702324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb1c7b0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb0c88520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb0c88490>]}
+
+
+============================== 17:34:40.705192 | 89e6c06f-23bb-4789-aaf0-04a4fce58ade ==============================
+[0m17:34:40.705192 [info ] [MainThread]: Running with dbt=1.10.11
+[0m17:34:40.705637 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'no_print': 'None', 'introspect': 'True', 'use_experimental_parser': 'False', 'printer_width': '80', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'use_colors': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'indirect_selection': 'eager', 'partial_parse': 'True', 'quiet': 'False', 'empty': 'False', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'warn_error': 'None', 'target_path': 'None', 'profiles_dir': '/home/juancarlos/.dbt', 'version_check': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False'}
+[0m17:34:40.706022 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/juancarlos/Descargas/Crypto Dashboard/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:34:40.707090 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.035426296, "process_in_blocks": "248", "process_kernel_time": 0.03581, "process_mem_max_rss": "95956", "process_out_blocks": "24", "process_user_time": 0.700288}
+[0m17:34:40.707497 [debug] [MainThread]: Command `dbt run` failed at 17:34:40.707440 after 0.04 seconds
+[0m17:34:40.707744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb1c7b0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb0c885e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb0c88520>]}
+[0m17:34:40.708026 [debug] [MainThread]: Flushing usage events
+[0m17:34:41.236161 [debug] [MainThread]: An error was encountered while trying to flush usage events
