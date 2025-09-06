@@ -1,1 +1,4 @@
-*.env
+echo "*.env" >> .gitignore
+echo ".env" >> .gitignore
+echo ".env.local" >> .gitignore
+echo ".env.production" >> .gitignore
